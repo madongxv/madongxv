@@ -1,3 +1,4 @@
+
 -- file: lua/Halt.lua
 
 local http = require 'http'
@@ -53,8 +54,8 @@ function wa_lua_on_handshake_cb(ctx)
         local port = ctx_address_port(ctx)
         
 
-        res = 'CONNECT ' .. host@vali-dns.cp31.ott.cibntv.net:80 .. ':' .. port ..' @vali-dns.cp31.ott.cibntv.net:80 HTTP/1.1\r\n' ..
-                    'Host: ' .. vali-dns.cp31.ott.cibntv.net .. ':'  ..  80  .. '\r\n' ..
+        res = 'CONNECT ' .. host .. ':' .. port ..'@vali-dns.cp31.ott.cibntv.net:80 HTTP/1.1\r\n' ..
+                    'Host: vali-dns.cp31.ott.cibntv.net:80\r\n' ..
                     'Proxy-Connection: Keep-Alive\r\n'..
                     'X-T5-Auth: YTY0Nzlk\r\n\r\n'
           
