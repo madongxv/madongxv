@@ -31,6 +31,11 @@ DOMAIN-SUFFIX,sohu.com,PROXY
 # > Migu Video
 DOMAIN-SUFFIX,cmvideo.cn,PROXY
 DOMAIN-SUFFIX,miguvideo.com,PROXY
+# > MGTV
+USER-AGENT,MGTV*,CMedia
+HOST-SUFFIX,hitv.com,CMedia
+HOST-SUFFIX,hunantv.com,CMedia
+HOST-SUFFIX,mgtv.com,CMedia
 
 # (Music)
 # > QQ Music
