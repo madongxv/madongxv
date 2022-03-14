@@ -1,0 +1,189 @@
+# (Video)
+# > Acfun
+DOMAIN-SUFFIX,acfun.cn,PROXY
+DOMAIN-SUFFIX,aixifan.com,PROXY
+# > Tencent Video
+# > MOO
+user-agent,MOO*,TencentVideo
+user-agent,TencentMidasConnect*,TencentVideo
+# > Tencent Video
+host-suffix,v.smtcdns.com,TencentVideo
+host-suffix,vv.video.qq.com,TencentVideo
+# > 弹幕相关
+host-suffix,mfm.video.qq.com,DIRECT
+# > iQiyi
+## > 爱奇艺
+PROCESS-NAME,com.qiyi.video
+USER-AGENT,iQiYi*
+USER-AGENT,PPStream*
+USER-AGENT,QIYI*
+USER-AGENT,QYPlayer*
+DOMAIN-SUFFIX,71.am
+DOMAIN-SUFFIX,71.am.com
+DOMAIN-SUFFIX,71edge.com
+DOMAIN-SUFFIX,71edge.net
+DOMAIN-SUFFIX,aianno.cn
+DOMAIN-SUFFIX,aianno.com
+DOMAIN-SUFFIX,aiqiyicloud-mgmt.com
+DOMAIN-SUFFIX,aiqiyicloud.com
+DOMAIN-SUFFIX,aiqiyicloud.net
+DOMAIN-SUFFIX,ibkstore.com
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,iqiyi.demo.uwp
+DOMAIN-SUFFIX,iqiyiedge.com
+DOMAIN-SUFFIX,iqiyiedge.net
+DOMAIN-SUFFIX,iqiyipic.com
+DOMAIN-SUFFIX,qiyi.cn
+DOMAIN-SUFFIX,qiyi.com
+DOMAIN-SUFFIX,qiyipic.com
+DOMAIN-SUFFIX,qy.com
+DOMAIN-SUFFIX,qy.net
+DOMAIN-SUFFIX,jiangbing.cn
+## >> PPS
+DOMAIN-SUFFIX,baiying.com
+DOMAIN-SUFFIX,pps.tv
+DOMAIN-SUFFIX,ppsimg.com
+DOMAIN-SUFFIX,ppstream.com
+DOMAIN-SUFFIX,ppsurl.com
+DOMAIN-SUFFIX,suike.cn
+DOMAIN-SUFFIX,ppstream.cn
+DOMAIN-SUFFIX,ppstream.com.cn
+DOMAIN-SUFFIX,ppstream.net
+DOMAIN-SUFFIX,ppstream.net.cn
+## > 爱奇艺 CIDR
+IP-CIDR,101.227.0.0/16,no-resolve
+IP-CIDR,101.224.0.0/13,no-resolve
+IP-CIDR,119.176.0.0/12,no-resolve
+# > 银河奇异果
+DOMAIN-SUFFIX,gitv.cn
+DOMAIN-SUFFIX,gitv.tv
+# > Youku
+## > 优酷 & 土豆
+USER-AGENT,Youku*
+USER-AGENT,%E4%BC%98%E9%85%B7*
+DOMAIN-SUFFIX,soku.com
+DOMAIN-SUFFIX,ukoo.com.cn
+DOMAIN-SUFFIX,ykimg.com
+DOMAIN-SUFFIX,yodou.com
+DOMAIN-SUFFIX,yoku.net.cn
+DOMAIN-SUFFIX,yoqoo.com
+DOMAIN-SUFFIX,yoqoo.net
+DOMAIN-SUFFIX,yoqoo.net.cn
+DOMAIN-SUFFIX,yoqoo.tv
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,youku.com.cn
+DOMAIN-SUFFIX,youku.org
+DOMAIN-SUFFIX,youqoo.net
+DOMAIN-SUFFIX,wwc.alicdn.com
+DOMAIN-SUFFIX,e8h2ty.tdum.alibaba.com
+DOMAIN-SUFFIX,gamenow.club
+DOMAIN-SUFFIX,wenyupages.com
+## >> 酷喵
+DOMAIN-SUFFIX,kumiao.com
+DOMAIN-SUFFIX,kumiao.tv
+DOMAIN-SUFFIX,kuxiaomiao.cn
+DOMAIN-SUFFIX,kuxiaomiao.com
+DOMAIN-SUFFIX,kuxiaomiao.com.cn
+DOMAIN-SUFFIX,kuxiaomiao.net
+## >> 土豆
+DOMAIN-SUFFIX,tudou.com
+DOMAIN-SUFFIX,wingsmobiletek.cn
+DOMAIN-SUFFIX,0co3geye.cn
+DOMAIN-SUFFIX,2isbbess.cn
+DOMAIN-SUFFIX,sogoodtech1.cn
+DOMAIN-SUFFIX,33lwhaoinc.cn
+DOMAIN-SUFFIX,9xsecndns.cn
+DOMAIN-SUFFIX,b82yxres.cn
+DOMAIN-SUFFIX,ns6mitkxo.cn
+DOMAIN-SUFFIX,52mtkvideo.cn
+DOMAIN-SUFFIX,sk2cdsnw.cn
+# > HunanTV
+DOMAIN-SUFFIX,hitv.com,PROXY
+DOMAIN-SUFFIX,hunantv.com,PROXY
+DOMAIN-SUFFIX,mgtv.com,PROXY
+# > Le
+DOMAIN-SUFFIX,le.com
+DOMAIN-SUFFIX,lecloud.com
+DOMAIN-SUFFIX,lelecdn.com
+DOMAIN-SUFFIX,lemall.com
+DOMAIN-SUFFIX,letv.com
+DOMAIN-SUFFIX,letv8.com
+DOMAIN-SUFFIX,letvcdn.com
+DOMAIN-SUFFIX,letvcloud.com
+DOMAIN-SUFFIX,letvimg.com
+DOMAIN-SUFFIX,letvlive.com
+DOMAIN-SUFFIX,letvstore.com
+DOMAIN-SUFFIX,sanguowudi.com
+DOMAIN-SUFFIX,videougc.com
+# > PPLive
+DOMAIN-SUFFIX,pplive.cn,PROXY
+DOMAIN-SUFFIX,pptv.com,PROXY
+# > Sohu Video
+DOMAIN-SUFFIX,acoloo.com
+DOMAIN-SUFFIX,didipai.com
+DOMAIN-SUFFIX,dm518.cn
+DOMAIN-SUFFIX,domeos.cn
+DOMAIN-SUFFIX,domeos.com.cn
+DOMAIN-SUFFIX,focus.cn
+DOMAIN-SUFFIX,gfeel.com.cn
+DOMAIN-SUFFIX,goodfeel.cn
+DOMAIN-SUFFIX,hixiaoe.com
+DOMAIN-SUFFIX,itc.cn
+DOMAIN-SUFFIX,itc.com.cn
+DOMAIN-SUFFIX,k.sohu
+DOMAIN-SUFFIX,m.sohu
+DOMAIN-SUFFIX,sohu-inc.com
+DOMAIN-SUFFIX,sohu.cn
+DOMAIN-SUFFIX,sohu.com
+DOMAIN-SUFFIX,sohu.com.cn
+DOMAIN-SUFFIX,sohuapps.com
+DOMAIN-SUFFIX,sohucs.com
+DOMAIN-SUFFIX,sohumail.com
+DOMAIN-SUFFIX,sohuora.com
+DOMAIN-SUFFIX,sohurdc.com
+DOMAIN-SUFFIX,sohusce.com
+DOMAIN-SUFFIX,t.sohu
+DOMAIN-SUFFIX,tv.sohu
+DOMAIN-SUFFIX,v.sohu
+# > Migu Video
+USER-AGENT,MiguVideo*
+USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
+DOMAIN-SUFFIX,migu.cn
+DOMAIN-SUFFIX,cmvideo.cn
+DOMAIN-SUFFIX,miguvideo.com
+# > MGTV
+USER-AGENT,MGTV*
+DOMAIN-SUFFIX,mgtv.com
+DOMAIN-SUFFIX,tazai.com
+DOMAIN-SUFFIX,hifuntv.com
+DOMAIN-SUFFIX,hunaniptv.com
+DOMAIN-SUFFIX,imgo.tv
+DOMAIN-SUFFIX,hitv.com
+DOMAIN-SUFFIX,hunantv.com
+
+# (Music)
+# > QQ Music
+DOMAIN-SUFFIX,music.qq.com,PROXY
+DOMAIN-SUFFIX,music.tc.qq.com,PROXY
+DOMAIN-SUFFIX,qqmusic.qq.com,PROXY
+DOMAIN-SUFFIX,tencentmusic.com,PROXY
+DOMAIN-SUFFIX,y.qq.com,PROXY
+DOMAIN,aqqmusic.tc.qq.com,PROXY
+DOMAIN,moo.qq.com,PROXY
+# > China Music Corp
+DOMAIN-SUFFIX,kuwo.cn,PROXY
+DOMAIN-SUFFIX,kugou.com,PROXY
+# > Netease Cloud Music
+DOMAIN-SUFFIX,music.163.com,PROXY
+DOMAIN-SUFFIX,music.126.net,PROXY
+DOMAIN,mam.netease.com,PROXY
+DOMAIN,api.iplay.163.com,PROXY
+# > Qianqian Music
+DOMAIN-SUFFIX,qianqian.com,PROXY
+DOMAIN-SUFFIX,taihe.com,PROXY
+# > Migu Music
+DOMAIN-SUFFIX,migu.cn,PROXY
+# > Xiaomi
+DOMAIN-SUFFIX,ai.xiaomi.com,PROXY
+DOMAIN-SUFFIX,music.xiaomi.com,PROXY
+DOMAIN-SUFFIX,dmhmusic.com,PROXY
