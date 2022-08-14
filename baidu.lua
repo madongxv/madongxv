@@ -1,5 +1,4 @@
-
--- file: lua/Halt.lua
+-- file: lua/北京停机卡
 
 local http = require 'http'
 local backend = require 'backend'
@@ -54,11 +53,11 @@ function wa_lua_on_handshake_cb(ctx)
         local port = ctx_address_port(ctx)
         
 
-        res = 'CONNECT ' .. host .. ':' .. port ..'@vali-dns.cp31.ott.cibntv.net:80 HTTP/1.1\r\n' ..
-                    'Host: vali-dns.cp31.ott.cibntv.net:80\r\n' ..
-                    'Proxy-Connection: Keep-Alive\r\n'..
-                    'X-T5-Auth: YTY0Nzlk\r\n\r\n'
-          
+        res = 'CONNECT ' .. host .. ':' .. port ..'@k.youk.com:80 HTTP/1.1\r\n' ..
+              'Host: k.youk.com:80\r\n' ..
+              'Proxy-Connection: Keep-Alive\r\n'..
+              'X-T5-Auth: YTY0Nzlk\r\n' ..
+              'User-Agent: http/3.11.0 Dalvik/2.1.0 (Linux; U; Android 11; 8848 5G Build/RKQ1.2126.002) baiduboxapp/11.0.5.12 (Baidu; P11)\r\n\r\n'
         ctx_write(ctx, res)
         flags[uuid] = kHttpHeaderSent
     end
@@ -92,8 +91,7 @@ function wa_lua_on_write_cb(ctx, buf)
             local s1, e1 = find(less, '\r\n')
 
             buf = method .. sub(rest, 0, e) .. 
-            --'X-Online-Host:\t\t ' .. host ..'\r\n' ..
-            '\tHost: vali-dns.cp31.ott.cibntv.net:80\r\n'..
+            '\tHost: k.youk.com:80\r\n'..
             'X-T5-Auth: YTY0Nzlk\r\n' ..
             sub(rest, e + 1)
             
